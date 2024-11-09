@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.mainList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  width: 80px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.avatarIcon {
+  display: inline-block;
+}
+
+.statusOn {
+  color: green;
+}
+
+.statusOff {
+  color: red;
+}
+
+.listOfFriends {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}

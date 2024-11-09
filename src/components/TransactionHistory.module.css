@@ -1,0 +1,28 @@
+.transactionTable {
+  color: black;
+  font-size: 18px;
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  text-transform: capitalize;
+}
+
+.tableHeads {
+  color: white;
+  background-color: black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px 70px 8px 70px;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: lightgrey;
+}
